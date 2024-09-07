@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    public function about()
+    public function __invoke()
     {
         return 'Nama dan NIM';
     }
